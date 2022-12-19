@@ -8,12 +8,11 @@ namespace Digger
 {
     static class RandomHelper
     {
-        static int randNumb = 0;
+        static int randomNumb = 0;
         static public int RandomXY(int x, int mapSize, int flag)
         {
-
-            var rand = new Random(randNumb);
-            randNumb++;
+            var rand = new Random(randomNumb);
+            randomNumb++;
             int xyHelp = 0;
             if (flag == 0)
             {
@@ -21,6 +20,7 @@ namespace Digger
                 else if (x == mapSize - 1) { xyHelp = rand.Next(-1, 0); }
                 else { xyHelp = rand.Next(-1, 2); }
             }
+            
             return xyHelp;
         }
     }
