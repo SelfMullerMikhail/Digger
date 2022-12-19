@@ -53,8 +53,11 @@
     <Compile Include="Architecture\CreatureCommand.cs" />
     <Compile Include="Architecture\GameState.cs" />
     <Compile Include="Architecture\CreatureMapCreator.cs" />
+    <Compile Include="Gold.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="RandomHelper.cs" />
     <Compile Include="Game.cs" />
-    <Compile Include="DiggerTask.cs" />
+    <Compile Include="Sack.cs" />
     <Compile Include="Architecture\ICreature.cs" />
     <Compile Include="Architecture\CreatureAnimation.cs" />
     <Compile Include="Architecture\DiggerWindow.cs">
@@ -62,6 +65,8 @@
     </Compile>
     <Compile Include="Architecture\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Monster.cs" />
+    <Compile Include="Terrain.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
